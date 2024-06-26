@@ -11,5 +11,10 @@ public class ListaTarefa {
     public ListaTarefa() {
         this.tarefaList = new ArrayList<>();
     }
+
+    //adicionar
+    public void adicionarTarefa(String descricao){
+        tarefaList.add(new Tarefa(descricao));
+    }
    
 }
